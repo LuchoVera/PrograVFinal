@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' href='styles.css'>
+        <title>Slides</title>
+    </head>
+    <body>
+        <div class='slides-container'>
+<div class='slide' style='background-image: url(https://res.cloudinary.com/dkappxhfr/image/upload/v1714167063/Pet/lqwro2f4gv37xssm9ful.jpg);'>
+<div style='font-size: 2.2vw; font-weight: bold;'>Proyecto Final</div>
+<h1>Objetivo:</h1>
+<p style='font-size: 1.2vw'>Crear un pseudo lenguaje capaz de crear slides en HTML a partir de un archivo de texto</p>
+<p style='font-size: 1.2vw'>Usamos distintos simbolos para determinara que elemento se va a crear, los elementos posibles para</p>
+<p style='font-size: 1.2vw'>crearse son:</p>
+<ul><li style='font-size: 1.2vw'>Titulos grandes, medianos y pequenios</li></ul>
+<ul><li style='font-size: 1.2vw'>Textos simples</li></ul>
+<ul><li style='font-size: 1.2vw'>Textos en negrilla</li></ul>
+<ul><li style='font-size: 1.2vw'>Textos en Cursiva</li></ul>
+<ul><li style='font-size: 1.2vw'>Listas </li></ul>
+<ul><li style='font-size: 1.2vw'>Imagenes</li></ul>
+<h2>Aqui el diccionario usado:</h2>
+<img src='https://res.cloudinary.com/dkappxhfr/image/upload/v1714164692/Pet/mgm4vppo1ivzsb15jllx.png' width='50%' height='50%'>
+</div>
+<div class='slide' style='background-image: url(https://res.cloudinary.com/dkappxhfr/image/upload/v1714166945/Pet/jpkuydvlmrlb9gsupcki.jpg);'>
+<div style='font-size: 2.2vw; font-weight: bold;'>Añadidos</div>
+<h2>Abstract Grammar:</h2>
+<p style='font-size: 1.2vw'>dentro de la gramatica abstracta, se nos dio las bases para hacer un titulo basico, el MdH1</p>
+<p style='font-size: 1.2vw'>como se menciono antes se añadieorn algunos extras como ser</p>
+<b style='font-size: 1.2vw'>letra en BOLD</b>
+<p style='font-size: 1.2vw'>tambien la </p>
+<i style='font-size: 1.2vw'>letra en ITALIK</i>
+<p style='font-size: 1.2vw'>y un nuevo atributo en cada Slide para poder cambiar el fondo a eleccion</p>
+<img src='https://res.cloudinary.com/dkappxhfr/image/upload/v1714164834/Pet/j28ydnleetvimagmbxuy.png' width='50%' height='50%'>
+</div>
+<div class='slide' style='background-image: url(https://res.cloudinary.com/dkappxhfr/image/upload/v1714166945/Pet/jpkuydvlmrlb9gsupcki.jpg);'>
+<div style='font-size: 2.2vw; font-weight: bold;'>Añadidos</div>
+<h2>Parser:</h2>
+<p style='font-size: 1.2vw'>dentro de la clase de parser se añadio los casos necesarios para poder crear</p>
+<p style='font-size: 1.2vw'>la estructura de nuestras slides para las adiciones anteriormente dichas</p>
+<img src='https://res.cloudinary.com/dkappxhfr/image/upload/v1714165223/Pet/xzxlbn5xob57s36rykd2.png' width='50%' height='50%'>
+</div>
+<div class='slide' style='background-image: url(https://res.cloudinary.com/dkappxhfr/image/upload/v1714166945/Pet/jpkuydvlmrlb9gsupcki.jpg);'>
+<div style='font-size: 2.2vw; font-weight: bold;'>Como se logró el armado del html?</div>
+<h2>Generator:</h2>
+<p style='font-size: 1.2vw'>Se tiene una clase generator donde definimos a que dara resultado nuestras slides</p>
+<img src='https://res.cloudinary.com/dkappxhfr/image/upload/v1714165698/Pet/nsh7tivyxubi1xx4aggi.png' width='50%' height='50%'>
+<b style='font-size: 1.2vw'>estructura base del html:</b>
+<img src='https://res.cloudinary.com/dkappxhfr/image/upload/v1714165879/Pet/b2mg9tkcpyqpwrslwl5z.png' width='50%' height='50%'>
+</div>
+<div class='slide' style='background-image: url(https://res.cloudinary.com/dkappxhfr/image/upload/v1714166901/Pet/abracz6dykf8eehgbboa.jpg);'>
+<div style='font-size: 2.2vw; font-weight: bold;'>Estructura Base Resultante</div>
+<p style='font-size: 1.2vw'>Finalmente como resultado obtenemos un archivo html con la sigueinte estructura</p>
+<img src='https://res.cloudinary.com/dkappxhfr/image/upload/v1714166217/Pet/ojocgr0zfwd7c6wzmtgm.png' width='50%' height='50%'>
+</div>
+<div class='slide' style='background-image: url(https://res.cloudinary.com/dkappxhfr/image/upload/v1714166901/Pet/abracz6dykf8eehgbboa.jpg);'>
+<div style='font-size: 2.2vw; font-weight: bold;'>Eso es todo</div>
+<img src='https://res.cloudinary.com/dkappxhfr/image/upload/v1714166739/Pet/xs6azamvyi66jvwjpxtr.webp' width='50%' height='50%'>
+</div>
+
+        </div>
+        <div class='arrow arrow--left active' id='left-arrow' onclick='prevSlide()'></div>
+        <div class='arrow arrow--right' id='right-arrow' onclick='nextSlide()'></div>
+        <script src='script.js'></script>
+    </body>
+</html>

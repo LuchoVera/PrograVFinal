@@ -1,0 +1,83 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 96%);
+}
+
+.slide {
+  display: none;
+  padding: 20px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.slide.active {
+  display: block;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#left-arrow {
+  background-image: url('https://cdn.icon-icons.com/icons2/933/PNG/512/keyboard-left-arrow-button_icon-icons.com_72692.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.arrow--left {
+  left: 0;
+}
+
+.arrow--right {
+  right: 0;
+  background-image: url('https://cdn.icon-icons.com/icons2/933/PNG/512/keyboard-left-arrow-button_icon-icons.com_72692.png');
+  transform: scaleX(-1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.arrow.active {
+  display: block;
+}
+
+ul {
+  list-style-position: inside;
+  
+  text-justify: center;
+}
+li {
+  font-size: 1.2vw
+}

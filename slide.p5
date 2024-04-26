@@ -1,0 +1,74 @@
+! Proyecto Final
+^ https://res.cloudinary.com/dkappxhfr/image/upload/v1714167063/Pet/lqwro2f4gv37xssm9ful.jpg
+{
+ #Objetivo:
+ Crear un pseudo lenguaje capaz de crear slides en HTML a partir de un archivo de texto
+ Usamos distintos simbolos para determinara que elemento se va a crear, los elementos posibles para
+ crearse son:
+
+ $ Titulos grandes, medianos y pequenios
+ $ Textos simples
+ $ Textos en negrilla
+ $ Textos en Cursiva
+ $ Listas 
+ $ Imagenes
+ 
+ ##Aqui el diccionario usado:
+ ~https://res.cloudinary.com/dkappxhfr/image/upload/v1714164692/Pet/mgm4vppo1ivzsb15jllx.png
+ 
+}
+---
+! Añadidos
+^https://res.cloudinary.com/dkappxhfr/image/upload/v1714166945/Pet/jpkuydvlmrlb9gsupcki.jpg
+{
+ ##Abstract Grammar:
+ dentro de la gramatica abstracta, se nos dio las bases para hacer un titulo basico, el MdH1
+ como se menciono antes se añadieorn algunos extras como ser
+ ** letra en BOLD
+ tambien la *letra en ITALIK
+ y un nuevo atributo en cada Slide para poder cambiar el fondo a eleccion
+ ~https://res.cloudinary.com/dkappxhfr/image/upload/v1714164834/Pet/j28ydnleetvimagmbxuy.png
+}
+---
+
+! Añadidos
+^ https://res.cloudinary.com/dkappxhfr/image/upload/v1714166945/Pet/jpkuydvlmrlb9gsupcki.jpg
+{
+    ##Parser:
+    dentro de la clase de parser se añadio los casos necesarios para poder crear
+    la estructura de nuestras slides para las adiciones anteriormente dichas
+
+    ~https://res.cloudinary.com/dkappxhfr/image/upload/v1714165223/Pet/xzxlbn5xob57s36rykd2.png
+}
+
+---
+
+! Como se logró el armado del html?
+^ https://res.cloudinary.com/dkappxhfr/image/upload/v1714166945/Pet/jpkuydvlmrlb9gsupcki.jpg
+{
+    ##Generator:
+    
+    Se tiene una clase generator donde definimos a que dara resultado nuestras slides
+
+    ~https://res.cloudinary.com/dkappxhfr/image/upload/v1714165698/Pet/nsh7tivyxubi1xx4aggi.png
+
+    **estructura base del html:
+    ~https://res.cloudinary.com/dkappxhfr/image/upload/v1714165879/Pet/b2mg9tkcpyqpwrslwl5z.png
+
+}
+
+---
+
+! Estructura Base Resultante
+^ https://res.cloudinary.com/dkappxhfr/image/upload/v1714166901/Pet/abracz6dykf8eehgbboa.jpg
+{
+ Finalmente como resultado obtenemos un archivo html con la sigueinte estructura
+ ~ https://res.cloudinary.com/dkappxhfr/image/upload/v1714166217/Pet/ojocgr0zfwd7c6wzmtgm.png
+}
+---
+
+! Eso es todo
+^ https://res.cloudinary.com/dkappxhfr/image/upload/v1714166901/Pet/abracz6dykf8eehgbboa.jpg
+{
+ ~https://res.cloudinary.com/dkappxhfr/image/upload/v1714166739/Pet/xs6azamvyi66jvwjpxtr.webp
+}
